@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="760" height="520" fill="#fff"/>
+  <rect x="42" y="42" width="676" height="436" rx="8" fill="#f5f7fa" stroke="#d8dde5"/>
+  <rect x="74" y="82" width="612" height="54" rx="8" fill="#fff" stroke="#d8dde5"/>
+  <text x="100" y="116" font-family="Arial" font-size="18" fill="#5d6673">query: person walking near the building</text>
+  <rect x="74" y="166" width="292" height="230" rx="8" fill="#17202a"/>
+  <polygon points="196,244 196,318 258,281" fill="#fff"/>
+  <rect x="402" y="166" width="284" height="58" rx="8" fill="#fff" stroke="#d8dde5"/>
+  <rect x="402" y="240" width="284" height="58" rx="8" fill="#fff" stroke="#d8dde5"/>
+  <rect x="402" y="314" width="284" height="58" rx="8" fill="#fff" stroke="#d8dde5"/>
+  <text x="424" y="201" font-family="Arial" font-size="18" font-weight="700" fill="#17202a">#1 00:18 - 00:27</text>
+  <text x="424" y="275" font-family="Arial" font-size="18" font-weight="700" fill="#17202a">#2 01:42 - 01:53</text>
+  <text x="424" y="349" font-family="Arial" font-size="18" font-weight="700" fill="#17202a">#3 02:10 - 02:19</text>
+  <circle cx="646" cy="195" r="14" fill="#22b8a0"/>
+  <circle cx="646" cy="269" r="14" fill="#f2a12b"/>
+  <circle cx="646" cy="343" r="14" fill="#72a7ff"/>
+  <rect x="74" y="424" width="612" height="14" rx="7" fill="#d8dde5"/>
+  <rect x="142" y="424" width="84" height="14" rx="7" fill="#22b8a0"/>
+  <rect x="410" y="424" width="58" height="14" rx="7" fill="#e2574c"/>
+</svg>

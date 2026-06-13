@@ -1,0 +1,7 @@
+media/raw/
+media/*.mov
+media/*.MOV
+media/*.avi
+media/*.AVI
+*.psd
+*.aep

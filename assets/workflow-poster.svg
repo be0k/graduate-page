@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#10151d"/>
+  <rect x="96" y="86" width="1088" height="628" rx="8" fill="#f8fafc"/>
+  <rect x="122" y="112" width="190" height="576" rx="8" fill="#17202a"/>
+  <rect x="340" y="112" width="818" height="360" rx="8" fill="#dde8f5"/>
+  <rect x="340" y="504" width="254" height="184" rx="8" fill="#ffffff" stroke="#d8dde5"/>
+  <rect x="622" y="504" width="254" height="184" rx="8" fill="#ffffff" stroke="#d8dde5"/>
+  <rect x="904" y="504" width="254" height="184" rx="8" fill="#ffffff" stroke="#d8dde5"/>
+  <text x="640" y="402" text-anchor="middle" font-family="Arial" font-size="46" font-weight="700" fill="#17202a">Drone Video Input</text>
+  <text x="640" y="448" text-anchor="middle" font-family="Arial" font-size="24" fill="#5d6673">Uploaded clip preview from the dashboard</text>
+</svg>

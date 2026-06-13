@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#10151d"/>
+  <path d="M180 520 C300 380 420 350 540 270 C700 165 840 260 1000 140" fill="none" stroke="#72a7ff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M220 580 C380 460 520 440 660 340 C790 246 900 350 1080 230" fill="none" stroke="#22b8a0" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="220" cy="500" r="4" fill="#fff"/><circle cx="310" cy="420" r="5" fill="#f2a12b"/><circle cx="430" cy="365" r="3" fill="#72a7ff"/><circle cx="560" cy="275" r="4" fill="#fff"/><circle cx="720" cy="230" r="5" fill="#e2574c"/><circle cx="910" cy="250" r="4" fill="#22b8a0"/><circle cx="1060" cy="160" r="5" fill="#fff"/>
+  <circle cx="270" cy="570" r="4" fill="#fff"/><circle cx="480" cy="455" r="5" fill="#f2a12b"/><circle cx="660" cy="345" r="4" fill="#72a7ff"/><circle cx="830" cy="315" r="5" fill="#fff"/><circle cx="1010" cy="255" r="4" fill="#e2574c"/>
+  <text x="640" y="690" text-anchor="middle" font-family="Arial" font-size="42" font-weight="700" fill="#fff">3D Map Viewer Result</text>
+</svg>

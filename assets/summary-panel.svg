@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="760" height="520" fill="#fff"/>
+  <rect x="42" y="42" width="676" height="436" rx="8" fill="#f5f7fa" stroke="#d8dde5"/>
+  <rect x="74" y="82" width="280" height="158" rx="8" fill="#17202a"/>
+  <rect x="406" y="82" width="280" height="158" rx="8" fill="#17202a"/>
+  <polygon points="198,130 198,192 250,161" fill="#fff"/>
+  <polygon points="530,130 530,192 582,161" fill="#fff"/>
+  <text x="214" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#17202a">Trimmed Video</text>
+  <text x="546" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#17202a">Summary</text>
+  <rect x="74" y="326" width="612" height="92" rx="8" fill="#fff" stroke="#d8dde5"/>
+  <polyline points="94,390 132,374 170,382 208,350 246,365 284,338 322,352 360,330 398,360 436,344 474,370 512,342 550,354 588,332 626,360 666,346" fill="none" stroke="#e2574c" stroke-width="4"/>
+  <text x="94" y="313" font-family="Arial" font-size="18" font-weight="700" fill="#17202a">Importance Score Timeline</text>
+</svg>

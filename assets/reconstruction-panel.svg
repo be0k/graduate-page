@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720">
+  <rect width="1100" height="720" fill="#10151d"/>
+  <rect x="48" y="48" width="1004" height="624" rx="8" fill="#f8fafc"/>
+  <rect x="80" y="90" width="410" height="520" rx="8" fill="#17202a"/>
+  <rect x="610" y="90" width="410" height="520" rx="8" fill="#17202a"/>
+  <text x="285" y="650" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#17202a">Raw Reconstruction</text>
+  <text x="815" y="650" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#17202a">3D Scene Viewer</text>
+  <path d="M128 410 C210 330 265 300 350 250 C390 226 420 185 450 150" fill="none" stroke="#72a7ff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M660 420 C735 345 798 310 878 252 C910 228 938 190 980 150" fill="none" stroke="#22b8a0" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="145" cy="398" r="3" fill="#fff"/><circle cx="188" cy="360" r="2" fill="#f2a12b"/><circle cx="250" cy="321" r="3" fill="#72a7ff"/><circle cx="300" cy="292" r="2" fill="#fff"/><circle cx="385" cy="215" r="3" fill="#ef6358"/><circle cx="420" cy="170" r="2" fill="#fff"/>
+  <circle cx="130" cy="300" r="2" fill="#fff"/><circle cx="210" cy="270" r="3" fill="#f2a12b"/><circle cx="265" cy="438" r="2" fill="#72a7ff"/><circle cx="368" cy="408" r="3" fill="#fff"/><circle cx="443" cy="360" r="2" fill="#ef6358"/>
+  <circle cx="700" cy="398" r="3" fill="#fff"/><circle cx="748" cy="365" r="3" fill="#22b8a0"/><circle cx="802" cy="315" r="3" fill="#f2a12b"/><circle cx="860" cy="278" r="3" fill="#fff"/><circle cx="930" cy="210" r="3" fill="#ef6358"/><circle cx="972" cy="170" r="3" fill="#fff"/>
+  <circle cx="690" cy="300" r="3" fill="#fff"/><circle cx="765" cy="270" r="3" fill="#22b8a0"/><circle cx="835" cy="438" r="3" fill="#72a7ff"/><circle cx="920" cy="390" r="3" fill="#fff"/>
+  <circle cx="240" cy="460" r="70" fill="none" stroke="#fff" stroke-width="1" opacity=".45"/>
+  <circle cx="350" cy="360" r="95" fill="none" stroke="#fff" stroke-width="1" opacity=".45"/>
+  <circle cx="780" cy="460" r="70" fill="none" stroke="#fff" stroke-width="1" opacity=".45"/>
+  <circle cx="890" cy="360" r="95" fill="none" stroke="#fff" stroke-width="1" opacity=".45"/>
+</svg>

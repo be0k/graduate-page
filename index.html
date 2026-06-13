@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drone Mapping and Video Understanding</title>
+    <meta
+      name="description"
+      content="Project page for a web-based drone video analysis system with 3D reconstruction, video summarization, and text-query retrieval results."
+    />
+    <meta property="og:title" content="Drone Mapping and Video Understanding" />
+    <meta
+      property="og:description"
+      content="A local web dashboard that visualizes drone video reconstruction, summary, and query-based retrieval results."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/project-card.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <a href="#top" class="brand">Drone Mapping</a>
+      <nav aria-label="Page sections">
+        <a href="#abstract">Abstract</a>
+        <a href="#repositories">Repositories</a>
+        <a href="#cases">Cases</a>
+        <a href="#outputs">Outputs</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="venue">Drone Video Analysis · Local Web System</p>
+        <h1>Drone Mapping and Video Understanding</h1>
+        <p class="authors">Junyoung Kim, Jiwoo Min, Beomjun Lee, Donghyun Kim, Mirae Kim · Gacon University</p>
+        <p class="hero-text">
+          A web-based workflow that takes an uploaded drone video and presents the scene as
+          a 3D reconstruction, a compact video summary, and query-relevant moments.
+        </p>
+        <div class="link-row">
+          <a href="https://github.com/be0k/video-summary" target="_blank" rel="noreferrer">Full Pipeline</a>
+          <a href="https://github.com/be0k/TriMamba" target="_blank" rel="noreferrer">TriMamba</a>
+          <a href="https://github.com/JIUUOO/uav-autopilot" target="_blank" rel="noreferrer">UAV Autopilot</a>
+        </div>
+      </section>
+
+      <section class="teaser">
+        <video autoplay muted loop controls playsinline preload="metadata" poster="assets/project-card.svg">
+          <source src="media/overview-demo.mp4" type="video/mp4" />
+        </video>
+        <p>
+          A short overview of the local web dashboard running a complete drone-video analysis flow.
+          The cases below show the same interface across multiple drone scenes.
+        </p>
+      </section>
+
+      <section id="abstract" class="section narrow">
+        <h2>Abstract</h2>
+        <p>
+          Long drone videos contain both spatial information and temporal events, but reviewing them
+          manually is slow. This project provides a local web dashboard that turns a user-uploaded video
+          into three result views: a LingBot-MAP reconstruction for understanding scene structure,
+          a TriMamba summary for quickly reviewing the trimmed video, and Lighthouse retrieval results
+          for finding query-relevant moments.
+        </p>
+        <p>
+          The page below is organized by input video. Each case shows the original/trimmed footage,
+          the reconstruction result, the summarization result, and the query-based retrieval result.
+        </p>
+      </section>
+
+      <section id="repositories" class="section">
+        <h2>Project Repositories</h2>
+        <p class="section-lead">
+          The project is organized across the full web pipeline, the TriMamba summarization code,
+          and the UAV path-following drone project.
+        </p>
+        <div class="repo-grid">
+          <a class="repo-card" href="https://github.com/be0k/video-summary" target="_blank" rel="noreferrer">
+            <span>Full Pipeline</span>
+            <h3>be0k/video-summary</h3>
+            <p>End-to-end web pipeline for upload, mapping, summarization, retrieval, and result visualization.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/be0k/TriMamba" target="_blank" rel="noreferrer">
+            <span>Summarization</span>
+            <h3>be0k/TriMamba</h3>
+            <p>TriMamba code used for video summarization and importance-score analysis.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/JIUUOO/uav-autopilot" target="_blank" rel="noreferrer">
+            <span>Drone Flight</span>
+            <h3>JIUUOO/uav-autopilot</h3>
+            <p>Path-following UAV/autopilot project connected to drone route execution.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="cases" class="section">
+        <h2>Results Across Multiple Drone Videos</h2>
+        <p class="section-lead">
+          Each case is organized around one uploaded drone video. Use the four result selectors
+          below each viewer to switch the large display between input, reconstruction, summary,
+          and retrieval results.
+        </p>
+
+        <article class="case-study" data-case>
+          <div class="case-head">
+            <div>
+              <p class="tag">Case 01</p>
+              <h3>Building Approach</h3>
+            </div>
+            <p>Clear structure-focused scene used to show the 3D map result and downstream video understanding outputs.</p>
+          </div>
+
+          <div class="case-viewer">
+            <div class="selected-media">
+              <video class="selected-video" autoplay muted loop controls playsinline preload="metadata" poster="assets/map-poster.svg">
+                <source src="media/case-01/reconstruction.mp4" type="video/mp4" />
+              </video>
+              <img class="selected-image" src="" alt="" hidden />
+            </div>
+            <aside class="selected-info">
+              <p class="tag">Selected Result</p>
+              <h4 class="selected-title">3D Reconstruction</h4>
+              <p class="selected-description">Large viewer recording of the reconstructed scene geometry from the uploaded drone video.</p>
+              <dl>
+                <div>
+                  <dt>Scene Type</dt>
+                  <dd>Building approach</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+
+          <div class="media-selector" aria-label="Case 01 result selector">
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-01/input.mp4"
+              data-kind="video"
+              data-poster="assets/workflow-poster.svg"
+              data-title="Input Video"
+              data-description="Trimmed drone footage uploaded to the web dashboard."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/workflow-poster.svg">
+                <source src="media/case-01/input.mp4" type="video/mp4" />
+              </video>
+              <h4>Input Video</h4>
+              <p>Trimmed drone footage uploaded to the web dashboard.</p>
+            </button>
+            <button
+              class="media-card is-selected"
+              type="button"
+              aria-pressed="true"
+              data-src="media/case-01/reconstruction.mp4"
+              data-kind="video"
+              data-poster="assets/map-poster.svg"
+              data-title="3D Reconstruction"
+              data-description="Large viewer recording of the reconstructed scene geometry from the uploaded drone video."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/map-poster.svg">
+                <source src="media/case-01/reconstruction.mp4" type="video/mp4" />
+              </video>
+              <h4>3D Reconstruction</h4>
+              <p>Large viewer recording of the reconstructed scene geometry.</p>
+            </button>
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-01/summary.mp4"
+              data-kind="video"
+              data-poster="assets/summary-panel.svg"
+              data-title="Summary"
+              data-description="Summary video with selected temporal regions and importance scores."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/summary-panel.svg">
+                <source src="media/case-01/summary.mp4" type="video/mp4" />
+              </video>
+              <h4>Summary</h4>
+              <p>Summary video with selected temporal regions and importance scores.</p>
+            </button>
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-01/retrieval.png"
+              data-kind="image"
+              data-title="Retrieval"
+              data-description="Query result screenshot for: find the toilet, bathroom or restroom."
+            >
+              <img src="media/case-01/retrieval.png" alt="Case 01 retrieval result" />
+              <h4>Retrieval</h4>
+              <p>find the toilet, bathroom or restroom.</p>
+            </button>
+          </div>
+        </article>
+
+        <article class="case-study" data-case>
+          <div class="case-head">
+            <div>
+              <p class="tag">Case 02</p>
+              <h3>Open Outdoor Path</h3>
+            </div>
+            <p>Longer outdoor route used to show how the dashboard presents broad scene structure and temporal results.</p>
+          </div>
+
+          <div class="case-viewer">
+            <div class="selected-media">
+              <video class="selected-video" autoplay muted loop controls playsinline preload="metadata" poster="assets/map-poster.svg">
+                <source src="media/case-02/reconstruction.mp4" type="video/mp4" />
+              </video>
+              <img class="selected-image" src="" alt="" hidden />
+            </div>
+            <aside class="selected-info">
+              <p class="tag">Selected Result</p>
+              <h4 class="selected-title">3D Reconstruction</h4>
+              <p class="selected-description">Viewer recording showing the reconstructed path and surrounding outdoor structure.</p>
+              <dl>
+                <div>
+                  <dt>Scene Type</dt>
+                  <dd>Open outdoor path</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+
+          <div class="media-selector" aria-label="Case 02 result selector">
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-02/input.mp4"
+              data-kind="video"
+              data-poster="assets/workflow-poster.svg"
+              data-title="Input Video"
+              data-description="Original or trimmed clip preview from the web page."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/workflow-poster.svg">
+                <source src="media/case-02/input.mp4" type="video/mp4" />
+              </video>
+              <h4>Input Video</h4>
+              <p>Original or trimmed clip preview from the web page.</p>
+            </button>
+            <button
+              class="media-card is-selected"
+              type="button"
+              aria-pressed="true"
+              data-src="media/case-02/reconstruction.mp4"
+              data-kind="video"
+              data-poster="assets/map-poster.svg"
+              data-title="3D Reconstruction"
+              data-description="Viewer recording showing the reconstructed path and surrounding outdoor structure."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/map-poster.svg">
+                <source src="media/case-02/reconstruction.mp4" type="video/mp4" />
+              </video>
+              <h4>3D Reconstruction</h4>
+              <p>Viewer recording showing the reconstructed path and surrounding structure.</p>
+            </button>
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-02/summary.mp4"
+              data-kind="video"
+              data-poster="assets/summary-panel.svg"
+              data-title="Summary"
+              data-description="Generated summary and score analysis from the summary page."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/summary-panel.svg">
+                <source src="media/case-02/summary.mp4" type="video/mp4" />
+              </video>
+              <h4>Summary</h4>
+              <p>Generated summary and score analysis from the summary page.</p>
+            </button>
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-02/retrieval.png"
+              data-kind="image"
+              data-title="Retrieval"
+              data-description="Retrieval result screenshot for: find the human wearing black t-shirt."
+            >
+              <img src="media/case-02/retrieval.png" alt="Case 02 retrieval result" />
+              <h4>Retrieval</h4>
+              <p>find the human wearing black t-shirt.</p>
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <section id="outputs" class="section">
+        <h2>What Each Result Shows</h2>
+        <div class="output-grid">
+          <article>
+            <img src="assets/reconstruction-panel.svg" alt="3D reconstruction viewer result" />
+            <h3>3D Reconstruction</h3>
+            <p>Visualizes the scene structure captured by the drone video.</p>
+          </article>
+          <article>
+            <img src="assets/summary-panel.svg" alt="Video summary and importance score result" />
+            <h3>Summary</h3>
+            <p>Shows the compact summary video and importance-score timeline.</p>
+          </article>
+          <article>
+            <img src="assets/retrieval-panel.svg" alt="Text query video retrieval result" />
+            <h3>Retrieval</h3>
+            <p>Shows query-relevant moments, scores, and highlighted frames.</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Drone Mapping and Video Understanding · Project Page</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

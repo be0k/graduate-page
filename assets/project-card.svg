@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#10151d"/>
+  <path d="M120 430 C280 300 390 330 520 210 C690 55 830 250 1060 120" fill="none" stroke="#72a7ff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M160 500 C310 390 480 440 650 310 C780 210 920 330 1080 220" fill="none" stroke="#22b8a0" stroke-width="12" stroke-linecap="round"/>
+  <text x="90" y="140" font-family="Arial" font-size="58" font-weight="700" fill="#fff">Drone Mapping and</text>
+  <text x="90" y="210" font-family="Arial" font-size="58" font-weight="700" fill="#fff">Video Understanding</text>
+  <text x="90" y="282" font-family="Arial" font-size="26" fill="#dbe7f2">3D reconstruction · summarization · query retrieval</text>
+</svg>
