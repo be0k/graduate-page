@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#10151d"/>
+  <rect x="92" y="78" width="1096" height="564" rx="8" fill="#f8fafc"/>
+  <rect x="140" y="120" width="1000" height="428" rx="8" fill="#dfe9f6"/>
+  <path d="M190 466 C330 348 448 392 560 274 C674 154 794 264 900 192 C992 128 1064 170 1110 138" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="190" cy="466" r="18" fill="#1f9d8a"/>
+  <circle cx="560" cy="274" r="18" fill="#1f9d8a"/>
+  <circle cx="900" cy="192" r="18" fill="#1f9d8a"/>
+  <circle cx="1110" cy="138" r="18" fill="#e2574c"/>
+  <path d="M628 306 l54 -22 l-16 56 l-22 -20 l-32 44 l-18 -13 l32 -44z" fill="#17202a"/>
+  <text x="640" y="606" text-anchor="middle" font-family="Arial" font-size="42" font-weight="700" fill="#17202a">Autonomous Flight Demo</text>
+  <text x="640" y="648" text-anchor="middle" font-family="Arial" font-size="22" fill="#626b78">Path-following route execution</text>
+</svg>
