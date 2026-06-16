@@ -126,9 +126,8 @@
       <section id="cases" class="section">
         <h2>Results Across Multiple Videos</h2>
         <p class="section-lead">
-          Each case is organized around one uploaded video. Use the four result selectors
-          below each viewer to switch the large display between input, reconstruction, summary,
-          and retrieval results.
+          Each case is organized around one source video. Use the result selectors below each
+          viewer to switch between input, reconstruction, summary, and retrieval results.
         </p>
 
         <article class="case-study" data-case>
@@ -315,6 +314,100 @@
               <img src="media/case-02/retrieval.png" alt="Case 02 retrieval result" />
               <h4>Retrieval</h4>
               <p>find the human wearing black t-shirt.</p>
+            </button>
+          </div>
+        </article>
+
+        <article class="case-study" data-case>
+          <div class="case-head">
+            <div>
+              <p class="tag">Case 03</p>
+              <h3>Autonomous Flight Analysis</h3>
+            </div>
+            <p>Analysis results generated from the footage captured during autonomous drone route execution.</p>
+          </div>
+
+          <div class="case-viewer">
+            <div class="selected-media">
+              <video class="selected-video" autoplay muted loop controls playsinline preload="metadata" poster="assets/map-poster.svg">
+                <source src="media/case-03/reconstruction.mp4" type="video/mp4" />
+              </video>
+              <img class="selected-image" src="" alt="" hidden />
+            </div>
+            <aside class="selected-info">
+              <p class="tag">Selected Result</p>
+              <h4 class="selected-title">3D Reconstruction</h4>
+              <p class="selected-description">Viewer recording of the reconstructed scene from the autonomous-flight footage.</p>
+              <dl>
+                <div>
+                  <dt>Scene Type</dt>
+                  <dd>Autonomous drone flight</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+
+          <div class="media-selector" aria-label="Case 03 result selector">
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-03/input.mp4"
+              data-kind="video"
+              data-poster="assets/autopilot-poster.svg"
+              data-title="Input Video"
+              data-description="Footage captured by the drone during autonomous route execution."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/autopilot-poster.svg">
+                <source src="media/case-03/input.mp4" type="video/mp4" />
+              </video>
+              <h4>Input Video</h4>
+              <p>Footage captured during autonomous route execution.</p>
+            </button>
+            <button
+              class="media-card is-selected"
+              type="button"
+              aria-pressed="true"
+              data-src="media/case-03/reconstruction.mp4"
+              data-kind="video"
+              data-poster="assets/map-poster.svg"
+              data-title="3D Reconstruction"
+              data-description="Viewer recording of the reconstructed scene from the autonomous-flight footage."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/map-poster.svg">
+                <source src="media/case-03/reconstruction.mp4" type="video/mp4" />
+              </video>
+              <h4>3D Reconstruction</h4>
+              <p>Viewer recording of the reconstructed autonomous-flight scene.</p>
+            </button>
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-03/summary.mp4"
+              data-kind="video"
+              data-poster="assets/summary-panel.svg"
+              data-title="Summary"
+              data-description="Summary video and importance-score analysis for the autonomous-flight footage."
+            >
+              <video autoplay muted loop playsinline preload="metadata" poster="assets/summary-panel.svg">
+                <source src="media/case-03/summary.mp4" type="video/mp4" />
+              </video>
+              <h4>Summary</h4>
+              <p>Summary video and importance-score analysis.</p>
+            </button>
+            <button
+              class="media-card"
+              type="button"
+              aria-pressed="false"
+              data-src="media/case-03/retrieval.png"
+              data-kind="image"
+              data-title="Retrieval"
+              data-description="Query result screenshot for the autonomous-flight footage."
+            >
+              <img src="media/case-03/retrieval.png" alt="Case 03 retrieval result" />
+              <h4>Retrieval</h4>
+              <p>Query result screenshot for the autonomous-flight footage.</p>
             </button>
           </div>
         </article>
